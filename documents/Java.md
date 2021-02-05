@@ -10,13 +10,13 @@
 
 ​	Java 是一种编译和解释共存的语言。在 Java 编程语言中，所有源代码都是以 .java 扩展名结尾的纯文本文件。javac 编译器会讲 .java 文件编译为后缀为 .class 的文件，它包含字节码（Java虚拟机的机器语言）。之后 Java 虚拟机的实例会解释（将字节码转化为机器码）并运行该程序。
 
-![](..\images\getStarted-compiler.gif)
+![](images\getStarted-compiler.gif)
 
 ​	
 
 ​	由于不同的平台（x86、ARM等）CPU 的指令集不同 ，Java 官方针对不同平台编写了虚拟机（JVM），每个平台都有对应的 JVM，不同平台的虚拟机负责加载字节码并执行，这样就实现了“一次编写，多处运行”的效果。 	
 
-![](..\images\helloWorld.gif)
+![](images\helloWorld.gif)
 
 ##### 1.1.1.2 Java 平台
 
@@ -59,7 +59,7 @@ JVM 是 Java 平台的基础，并且已经移植到各种基于硬件的平台�
 
 API 是大量现成的软件组件的集合，这些组件提供了许多有用的功能。它分为相关类和接口的库。这些库称为**软件包**。 
 
-![](..\images\getStarted-jvm.gif)
+![](images\getStarted-jvm.gif)
 
 ##### 1.1.1.3 Java 常用名词解释
 
@@ -70,7 +70,7 @@ API 是大量现成的软件组件的集合，这些组件提供了许多有用�
 
 ​	简单地说，JRE 就是运行 Java 字节码的虚拟机。但是，如果只有 Java 源码，要编译成 Java 字节码，就需要 JDK，因为 JDK 除了包含 JRE，还提供了编译器、调试器等开发工具。 
 
-![1612510798734](..\images\1612510798734.png)
+![1612510798734](images\1612510798734.png)
 
 
 
